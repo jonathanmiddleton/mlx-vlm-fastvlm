@@ -1,6 +1,21 @@
-[![Upload Python Package](https://github.com/Blaizzy/mlx-vlm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/Blaizzy/mlx-vlm/actions/workflows/python-publish.yml)
-# MLX-VLM
+# MLX-VLM with FastVLM Support
 
+This repo is a fork of MLX-VLM (https://github.com/mlcommons/mlx-vlm) with support for [FastVLM](https://github.com/apple/ml-fastvlm).
+
+FastVLM is a fast and efficient vision language model (VLM) that can be used for vision-based tasks such as image captioning, image classification, and more. See the [FastVLM](https://github.com/apple/ml-fastvlm) repo for more information.
+FastVLM checkpoints are available on Hugging Face in Apple's [FastVLM Collection](https://huggingface.co/collections/apple/fastvlm-68ac97b9cd5cacefdd04872e).
+
+> **Note:** This fork makes use of Apple code and is subject to the licensing terms of Apple Research. Please see the [license information](https://github.com/apple/ml-fastvlm/blob/main/LICENSE) in the Apple repo for more information.
+
+> **Note:** The FastViTHD and FastVLM models are also subject to Apple Research licensing terms. Please see the [license information](https://github.com/apple/ml-fastvlm/blob/main/LICENSE_MODEL) in the Apple repo for more information.
+
+## FastViTHD Vision Encoder Highlights
+From Apple:
+- We introduce FastViTHD, a novel hybrid vision encoder designed to output fewer tokens and significantly reduce encoding time for high-resolution images.
+- Our smallest variant outperforms LLaVA-OneVision-0.5B with 85x faster Time-to-First-Token (TTFT) and 3.4x smaller vision encoder.
+- Our larger variants using Qwen2-7B LLM outperform recent works like Cambrian-1-8B while using a single image encoder with a 7.9x faster TTFT.
+
+# MLX-VLM
 MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) and Omni Models (VLMs with audio and video support) on your Mac using MLX.
 
 ## Table of Contents
