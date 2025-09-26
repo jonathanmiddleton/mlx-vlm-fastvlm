@@ -1,6 +1,6 @@
 # MLX-VLM with FastVLM Support
 
-This repo is a fork of MLX-VLM (https://github.com/mlcommons/mlx-vlm) with support for [FastVLM](https://github.com/apple/ml-fastvlm).
+This repo is a fork of [MLX-VLM](https://github.com/mlcommons/mlx-vlm) with support for [FastVLM](https://github.com/apple/ml-fastvlm).
 
 FastVLM is a fast and efficient vision language model (VLM) that can be used for vision-based tasks such as image captioning, image classification, and more. See the [FastVLM](https://github.com/apple/ml-fastvlm) repo for more information.
 FastVLM checkpoints are available on Hugging Face in Apple's [FastVLM Collection](https://huggingface.co/collections/apple/fastvlm-68ac97b9cd5cacefdd04872e).
